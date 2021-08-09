@@ -48,7 +48,7 @@ How to update alpaka as git subtree?
 # git author is generic to not mess up contribution statistics
 GIT_AUTHOR_NAME="Third Party" GIT_AUTHOR_EMAIL="crp-git@hzdr.de" \
  git subtree pull --prefix alpaka \
- https://github.com/ComputationalRadiationPhysics/alpaka.git develop --squash
+https://github.com/alpaka-group/alpaka.git develop --squash
 ```
 
 **How to commit local changes to alpaka upstream?**
