@@ -175,6 +175,8 @@ Porting Step by Step
 
        auto result = deviceFunction( acc, x );
 
+- Note that functions like cudaDeviceGetProperties may not be directly supported with CUPLA. Some functionality can be replaced using `AccDevGetProps` but note that Alpaka will try to do some work division for you that should not be overidden. 
+
 - Cupla code can be mixed with
   [**alpaka**](https://github.com/ComputationalRadiationPhysics/alpaka)
   low level code. This becomes necessary as you are progressing to write more
